@@ -93,37 +93,37 @@ button.pack(side="bottom", pady=10)
 canvas = Canvas(window, height=500, width=500, bg="white")
 canvas.pack()
 
-background_image=PhotoImage(file="C:\\Users\\jtees\\Documents\\Shopping Cart\\sheet.png")
+background_image=PhotoImage(file="sheet.png")
 background=canvas.create_image(0,0,image=background_image)
 
-basket_image = PhotoImage(file="C:\\Users\\jtees\\Documents\\Shopping Cart\\pink basket.png")
+basket_image = PhotoImage(file="pink basket.png")
 myimage = canvas.create_image(250,250,image=basket_image)
 
-coke_image = PhotoImage(file="C:\\Users\\jtees\\Documents\\Shopping Cart\\coke cherry.png")
+coke_image = PhotoImage(file="coke cherry.png")
 coke = canvas.create_image(44, 13, image=coke_image, anchor="nw")
 
-macroon_image = PhotoImage(file="C:\\Users\\jtees\\Documents\\Shopping Cart\\macroon.png")
+macroon_image = PhotoImage(file="macroon.png")
 macroon = canvas.create_image(187, 22, image=macroon_image, anchor="nw")
 
-milk_image = PhotoImage(file="C:\\Users\\jtees\\Documents\\Shopping Cart\\milk bottle.png")
+milk_image = PhotoImage(file="milk bottle.png")
 milk = canvas.create_image(120, 348, image=milk_image, anchor="nw")
 
-jam_image = PhotoImage(file="C:\\Users\\jtees\\Documents\\Shopping Cart\\jam.png")
+jam_image = PhotoImage(file="jam.png")
 jam = canvas.create_image(338, 20, image=jam_image, anchor="nw")
 
-bagel_image = PhotoImage(file="C:\\Users\\jtees\\Documents\\Shopping Cart\\bagels.png")
+bagel_image = PhotoImage(file="bagels.png")
 bagel = canvas.create_image(372, 144, image=bagel_image, anchor="nw")
 
-strawberry_image = PhotoImage(file="C:\\Users\\jtees\\Documents\\Shopping Cart\\strawberries.png")
+strawberry_image = PhotoImage(file="strawberries.png")
 strawberry = canvas.create_image(263, 365, image=strawberry_image, anchor="nw")
 
-nutella_image = PhotoImage(file="C:\\Users\\jtees\\Documents\\Shopping Cart\\nutella.png")
+nutella_image = PhotoImage(file="nutella.png")
 nutella = canvas.create_image(0, 197, image=nutella_image, anchor="nw")
 
-roll_image = PhotoImage(file="C:\\Users\\jtees\\Documents\\Shopping Cart\\rolls.png")
+roll_image = PhotoImage(file="rolls.png")
 rolls = canvas.create_image(18, 369, image=roll_image, anchor="nw")
 
-coffee_image = PhotoImage(file="C:\\Users\\jtees\\Documents\\Shopping Cart\\cold coffee.png")
+coffee_image = PhotoImage(file="cold coffee.png")
 coffee = canvas.create_image(372, 344, image=coffee_image, anchor="nw")
 
 # Map canvas IDs to grocery names
